@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ProdutosController extends Controller
 {
-    public function produtos(){
-        return View('site.produtos');
+    public function produto(){
+        return View('site.produto');
     }
 }
